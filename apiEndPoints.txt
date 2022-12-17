@@ -1,0 +1,17 @@
+Api endpoints with method are shown here -- 
+authentication are not used. 
+
+1. view all the tasks list 
+GET http://hellotask-todo.test/api/todos
+
+2. Add New Task 
+POST http://hellotask-todo.test/api/todos
+use 'id','title','description' to insert a new task.
+
+3. Update task
+PUT http://hellotask-todo.test/api/todos/{id}
+use 'id' of desired data on url, use boolean value for 'isDone' column.
+
+3. delete task
+DELETE http://hellotask-todo.test/api/todos/{id}
+use 'id' of desired data on url.
